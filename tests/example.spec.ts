@@ -85,8 +85,8 @@ test("Working with Custom helpers",async ({page}) => {
 
 test.only("New page",async ({page}) => {
   await page.goto("https://aweui.aspnetawesome.com/");
-  await page.pause();
+  //await page.pause();
   await page.click("#mealOdd-awed");
-  await page.pause();
+  //await page.pause();
 })
 
